@@ -1,0 +1,25 @@
+[{
+		"depositId": 49437,
+		"plantId": 531,
+		"depositDate": "2023-01-01T00:00:00.000Z",
+		"bankCode": 244,
+		"depositType": "bank",
+		"paymentTotal": 2137.2
+	},
+	{
+		"depositId": 49438,
+		"plantId": 531,
+		"depositDate": "2023-01-01T00:00:00.000Z",
+		"bankCode": 244,
+		"depositType": "bank",
+		"paymentTotal": 2137.2
+	},
+	{
+		"depositId": 49437,
+		"plantId": 531,
+		"depositDate": "2023-01-01T00:00:00.000Z",
+		"bankCode": 244,
+		"depositType": "bank",
+		"paymentTotal": 2137.2
+	}
+]

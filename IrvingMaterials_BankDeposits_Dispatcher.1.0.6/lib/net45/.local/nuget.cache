@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hK26LTk/qaxxQAk+S0h7BmX63rTUR5lPkRlyRGZ9actMquFwS2O/D1ITdPzdd04Otmd3qYdPkFPxknK1NryA4Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\kanika.saluja\\Downloads\\IrvingMaterials_BankDeposits_Dispatcher.1.0.6\\lib\\net45\\.local\\",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "filePath": "C:\\Users\\kanika.saluja\\Downloads\\IrvingMaterials_BankDeposits_Dispatcher.1.0.6\\lib\\net45\\.local",
+      "message": "Failed to download package 'UiPath.PDF.Activities.3.0.0' from 'https://pkgs.dev.azure.com/uipath/5b98d55c-1b14-4a03-893f-7a59746f1246/_packaging/1c781268-d43d-45ab-9dfc-0151a1c740b7/nuget/v3/flat2/uipath.pdf.activities/3.0.0/uipath.pdf.activities.3.0.0.nupkg'.\r\nA connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (qvsvsblobprodsu6weus67.blob.core.windows.net:443)\r\n  A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."
+    }
+  ]
+}

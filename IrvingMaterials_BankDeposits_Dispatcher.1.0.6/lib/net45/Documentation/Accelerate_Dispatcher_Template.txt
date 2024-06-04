@@ -1,0 +1,17 @@
+
+The RE-Framework dispatcher template will have the following capability:
+-- Provision to specify the path of config file using asset so that in case excel config is placed at a common/shared location then multiple BOTs/VMs can access it.
+-- Provision for checking connectivity with Shared drive/common drive.
+-- Provision of converting Excel config to JSON config that can be stored in UiPath orchestrator as an Asset.
+-- Ability to read multiple CSV or XLSX files.
+-- Ability to validate the required columns in input CSV or XLSX files (validate if all mandatory columns present in input file).
+-- Ability to validate the required data in input CSV or XLSX files such as blank records, N/A, none, etc.
+-- Successfully processed file will be archived to 'Archive' folder.
+-- If input file doesn't have mandatory columns then it will be moved to 'Failed' folder.
+-- The name of input files will have no dependency on the process.
+-- If any excel has single row or multiple row of data then also dispatcher will be able to add the records to Queue.
+-- If the dispatcher bot faces error at the time of adding nth row then it will not end the processing of current file, rather it tries to add that record as App Exception in Queue and start processing of the new(n+1) row in current file.
+-- If there are multiple files then each file will be treated as one transaction item by the RE-Framework dispatcher bot.
+-- Helper templates to send email via SMTP.
+-- Helper templated to move the CSV or XLSX files after processing with provision to add timestamp to the name of the file(if required). The source, destination and timestamp required are all configurable.
+

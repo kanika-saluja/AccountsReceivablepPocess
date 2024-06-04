@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "in_Config(\"ImiApiDevToken\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "folderPath": {
+          "defaultValue": "Dev-Test",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "filepath",
+          "isExpression": false
+        }
+      }
+    }
+  ]
+}
