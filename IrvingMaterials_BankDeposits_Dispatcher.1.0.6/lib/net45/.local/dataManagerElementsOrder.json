@@ -1,0 +1,56 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "TransactionData&StateMachine_1",
+        "sstr_SMTP_pswd&StateMachine_1",
+        "str_SMTP_Username&StateMachine_1",
+        "intTotalRecordsAddedinQueue&StateMachine_1",
+        "intRetryCount&StateMachine_1",
+        "intRetryInterval&StateMachine_1",
+        "str_ProcessName&StateMachine_1",
+        "str_InputFileExtension&StateMachine_1",
+        "DepositAPIResponse&StateMachine_1",
+        "bool_DepositAvailable&StateMachine_1",
+        "Dt_DepositStatus&StateMachine_1",
+        "int_QueueItemsAdded&StateMachine_1",
+        "bool_isProdEnv&StateMachine_1",
+        "str_InputFilepath&State_2",
+        "arr_ListOfInputFiles&State_2",
+        "strConfigPath&Sequence_4",
+        "ShouldStop&Sequence_25",
+        "varEmailSuccessBody&Sequence_39",
+        "SummaryReportPath&Sequence_39",
+        "varBusinessExpnMailBody&Sequence_41",
+        "img&Sequence_40",
+        "varSystemExpnMailBody&Sequence_40",
+        "img&Sequence_79",
+        "varSystemExpnMailBody&Sequence_79"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
